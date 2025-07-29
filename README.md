@@ -56,17 +56,35 @@ ros2 run turtlesim turtle_teleop_key
 
 And this will make me control the turtle using my keyboard arrows!
 
+## 🧪 Beginner Linux + ROS2 CLI Tools I Explored 🧰
+
+| Command                          | What it does                                     |
+| -------------------------------- | ------------------------------------------------ |
+| `ls`, `cd`, `pwd`                | Basic file navigation in Linux                   |
+| `sudo apt install`               | Installing packages from terminal                |
+| `source ~/.bashrc`               | Reloads terminal config                          |
+| `printenv`                       | Checks environment variables (like `ROS_DISTRO`) |
+| `ros2 run`                       | Runs a node from a ROS2 package                  |
+| `ros2 pkg executables <package>` | Lists available executables                      |
+| `ros2 topic list`                | Shows all active topics                          |
+| `ros2 topic echo <topic>`        | Shows messages from a topic                      |
+| `ros2 node list`                 | Lists all running ROS2 nodes                     |
+| `ros2 interface show`            | Displays the message structure of a topic        |
+
+These tools helped me understand how Linux and ROS2 communicate and gave me full control from the terminal.
+
 ## 🧠 What I Learned:
 
 - How to install and source ROS2 correctly
 
 - How to manage multiple terminals in ROS2
 
+- How ROS2 uses topics and nodes to communicate.
+
 - How to run and control simulation nodes
 
 - How to debug .bashrc errors 
 
-- That focus on the terminal matters for key input!
 
 ## ✨ Why This Matters:
 
