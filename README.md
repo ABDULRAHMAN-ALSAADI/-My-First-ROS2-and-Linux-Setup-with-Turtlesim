@@ -53,8 +53,10 @@ In Terminal 2:
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-
 And this will make me control the turtle using my keyboard arrows!
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 230817" src="https://github.com/user-attachments/assets/0544521f-c777-441d-b4e6-df85f179a5bb" />
+
 
 ## 🧪 Beginner Linux + ROS2 CLI Tools I Explored 🧰
 
